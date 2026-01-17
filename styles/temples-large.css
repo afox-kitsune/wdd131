@@ -8,7 +8,7 @@
     display: block;
   }
 
-  .site-header.menu-open .logo {
+  .page-header.menu-open .logo {
     display: block;
   }
 
@@ -18,7 +18,7 @@
     justify-content: space-between;
   }
 
-  .site-nav {
+  .page-nav {
     display: block;
     position: static;
     width: auto;
@@ -30,7 +30,6 @@
     align-items: center;
     justify-content: flex-end;
     gap: 20px;
-
     background: transparent;
     padding: 0;
     margin: 0;
@@ -40,7 +39,7 @@
     display: block;
   }
 
-  .site-header.menu-open .nav-list {
+  .page-header.menu-open .nav-list {
     display: flex;
     flex-direction: row;
   }
