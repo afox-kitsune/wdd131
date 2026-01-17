@@ -163,7 +163,7 @@ nav a:hover, li a:hover {
   padding: 0;
   margin: -1px;
   overflow: hidden;
-  clip: rect(0, 0, 0, 0);
+  clip: rect(0px, 0px, 0px, 0px);
   white-space: nowrap;
   border: 0;
 }
