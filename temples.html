@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temple Album |WDD 131 - Dynamic Web Fundamentals | Alana Fox/title>
+    <meta name="description" content="W02 Assignment Temple Picture Album" />
+    <meta name="author" content="Alana Fox" />
+    <link rel="stylesheet" href="styles/temples.css">
+    <link rel="stylesheet" href="styles/temples-large.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    <script src="scripts/temples.js" defer></script>
+    <script src="scripts/getdates.js" defer></script>
+</head>
+
+<body>
+
+    <header class="site-header">
+        <div class="bar">
+            <h1 class="logo">Temple Album</h1>
+
+            <button id="menu" aria-label="Open navigation menu"></button>
+
+            <nav class="site-nav">
+                <ul class="nav-list">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Old</a></li>
+                    <li><a href="#">New</a></li>
+                    <li><a href="#">Large</a></li>
+                    <li><a href="#">Small</a></li>
+                </ul>
+            </nav>  
+        </div>
+    </header>
+
+    <main class="container">
+        <h2 class="page-title">Home</h2>
+        <section class="gallery">
+            <h2 class="visually-hidden">Temple Gallery</h2>
+
+            <figure class="card">
+                <img src="images/mesa_arizona_temple.jpeg" alt="Temple Placeholder" loading="lazy" class="card-image">
+                <figcaption class="card-caption">Mesa, Arizona</figcaption>
+
+            </figure>
+            <figure class="card">
+                <img src="images/gila_valley_arizona_temple.jpeg" alt="Temple Placeholder" loading="lazy" class="card-image">
+                <figcaption class="card-caption">Gila Valley, Arizona</figcaption>
+            </figure>
+            <figure class="card">
+                <img src="images/gilbert_arizona_temple.jpg" alt="Temple Placeholder" loading="lazy" class="card-image">
+                <figcaption class="card-caption">Gilbert, Arizona/figcaption>
+            </figure>
+            <figure class="card">
+                <img src="images/snowflake_arizona_temple.jpeg" alt="Temple Placeholder" loading="lazy" class="card-image">
+                <figcaption class="card-caption">Snowflake, Arizona</figcaption>
+            </figure>
+            <figure class="card">
+                <img src="images/phoenix_arizona_templejpeg.jpeg" alt="Temple Placeholder" loading="lazy" class="card-image">
+                <figcaption class="card-caption">Phoenix, Arizona</figcaption>
+            </figure>
+            <figure class="card">
+                <img src="images/tucson_arizona_temple.jpeg" alt="Temple Placeholder" loading="lazy" class="card-image">
+                <figcaption class="card-caption">Tucson, Arizona</figcaption>
+            </figure>
+            <figure class="card">
+                <img src="images/sapporo-japan-temple.jpg" alt="Temple Placeholder" loading="lazy" class="card-image">
+                <figcaption class="card-caption">Sapporo, Japan</figcaption>
+            </figure>
+            <figure class="card">
+                <img src="images/monticello-utah-templejpg.jpg" alt="Temple Placeholder" loading="lazy" class="card-image">
+                <figcaption class="card-caption">Monticello, Utah</figcaption>
+            </figure>
+            <figure class="card">
+                <img src="images/nauvoo_illinois-temple.jpeg" alt="Temple Placeholder" loading="lazy" class="card-image">
+                <figcaption class="card-caption">Nauvoo, Illinois/figcaption>
+            </figure> 
+            
+       </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>&copy; <span id="currentyear"></span>🦊 Alana Fox 🦊 Arizona</p><br>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+
+</html>
