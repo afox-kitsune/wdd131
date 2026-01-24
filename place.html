@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 131 Dynamic Web Fundamentals Alana Fox</title>
+    <meta name="description" content="Alana Fox's where I live webpage WDD 131 Dynamic Web Fundamentals assignment">
+    <meta name="author" content="Alana Fox">
+    <link rel="stylesheet" href="styles/places.css">
+    <link rel="stylesheet" href="styles/places-large.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    <script src="scripts/place.js" defer></script>
+    <script src="scripts/getdates.js" defer></script>
+</head>
+
+<body>
+    <header><h1>Arizona, United States of America</h1></header>
+    <div class="grid-container">
+    <main>
+
+      <div class="hero">
+        <picture>
+          <source
+            srcset="images/superstition-large.webp 1500w"
+            media="(min-width: 800px)" sizes="800px"
+          >
+          <source
+            srcset="images/superstition-medium.webp 1000w"
+            media="(min-width: 100px)" sizes="600px"
+          >
+          <img
+            src="images/superstition-large.webp"
+            alt="State Name: Arizona"
+            width="1500"
+            height="584"
+          >
+        </picture>
+        <section id="card1">
+          <h2 class="data-title-arizona">Data <img src="images/az-shape.svg" alt="data about Arizona" width="24" height="24"></h2>
+
+          <div class="data-box-1">
+            <h3 id="title-header-data">Data</h3>
+            <div class="row">
+              <div class="col1">Area:</div>
+              <div class="col2">113,998 square miles (295,000 km²) </div>
+            </div>
+            <div class="row">
+              <div class="col1">Population:</div>
+              <div class="col2">7,359,197</div>
+            </div>
+            <div class="row">
+              <div class="col1">Capital:</div>
+              <div class="col2">Phoenix</div>
+            </div>
+            <div class="row">
+              <div class="col1">Currency:</div>
+              <div class="col2">United States Dollar</div>
+            </div>
+            <div class="row">
+              <div class="col1">Language:</div>
+              <div class="col2">English is the official language, but Spanish is the most common second language, followed by Navajo, with many other Native American languages (like Apache, Hopi, O'odham)</div>
+            </div>
+            <div class="row">
+              <div class="col1">Time Zone:</div>
+              <div class="col2">UTC-7:00 (MST)</div>
+            </div>
+            <div class="row">
+              <div class="col1">National Flower:</div>
+              <div class="col2">Saguaro Cactus Blossom (Carnegiea gigantea)</div>
+            </div>
+            <div class="row">
+              <div class="col1">National Tree:</div>
+              <div class="col2">Foothill Palo Verde (Parkinsonia microphylla)</div>
+            </div>
+            <div class="row">
+              <div class="col1">National Bird:</div>
+              <div class="col2">Cactus Wren (Heleodytes brunneicapillus)</div>
+            </div>
+            <div class="more-content"></div>
+              
+              <div class="row">
+                <div class="col1">ISO</div>
+                <div class="col2">US-AZ</div>
+              </div>
+
+              <div class="row">
+                <div class="col1">Domain(TLD)</div>
+                <div class="col2">.us</div>
+               </div>
+              <div class="row">
+                <div class="col1">Country code</div>
+                <div class="col2">+1</div>
+              </div>
+              <div class="row">
+                <div class="col1">Nationality</div>
+                <div class="col2">American</div>
+              </div>
+              <div class="row">
+                <div class="col1">National Day</div>
+                <div class="col2">July 4 1776</div>
+              </div>
+
+            </div>
+            <a href="#" id="show-more">More</a>
+          </div>
+        </section>
+
+
+
+        <section id="card2">
+          <h2 class="data-title-weather">Weather <img src="images/weather_icon.svg" alt="sunny and/or cloudy weather" width="32" height="32"></h2>
+
+          <div class="data-box-2">
+            <h3 id="title-header-weather">Weather</h3>
+            <div class="row">
+              <div class="col1">Temperature:</div>
+              <div class="col2" id="temperature">63°F</div>
+            </div>
+            <div class="row">
+              <div class="col1">Weather Condition:</div>
+              <div class="col2">Cloudy</div>
+            </div>
+            <div class="row">
+              <div class="col1">Wind Speed:</div>
+              <div class="col2" id="wind-speed">4 mph/h</div>
+            </div>
+            <div class="row">
+              <div class="col1">Wind Chill Factor:</div>
+              <div class="col2" id="wind-chill"></div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+    </div>
+
+    <footer class="page-footer">
+        <p>&copy; <span id="currentyear"></span>🦊 Alana Fox 🦊 Arizona</p><br>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+
+</html>
