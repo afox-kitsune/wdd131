@@ -5,25 +5,6 @@ year.innerHTML = `<span class="highlight">${today.getFullYear()}</span>`;
 
 
 document.addEventListener('DOMContentLoaded', function () {
-    const showMoreLink = document.getElementById('show-more');
-    const moreContent = document.querySelector('.more-content');
-
-showMoreLink.addEventListener('click', function (event) {
-    event.preventDefault();
-    if (moreContent.style.display === 'none' || moreContent.style.display === '') {
-        moreContent.style.display = 'block';
-        showMoreLink.textContent = 'Less';
-    } else {
-        moreContent.style.display = 'none';
-        showMoreLink.textContent = "More";
-
-    }
-
-});
-
-});
-
-document.addEventListener('DOMContentLoaded', function () {
     const temperature = 50; // Static temperature value in °F
     const windSpeed = 3; // Static wind speed value in mph/h
 

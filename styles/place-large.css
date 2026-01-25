@@ -23,12 +23,15 @@ body {
 @media screen and (min-width: 100px) and (max-width: 1000px) {
     
     .data-title-arizona, .data-title-weather {
-        display: none;    }
+        display: none;
+        padding-top:5px;
+        }
 
 
     header {
-        margin-bottom: 5px;
+        margin-bottom: 10px;
         width: 100%;
+        margin-top: 10px;
         }
 
     h1 {
@@ -38,6 +41,8 @@ body {
         color: var(--accent-color);
         background-color: var(--secondary-color);
         padding: 0 20px;
+        height: 75px;
+        padding-top: 20px;    
         }
 
     #title-header-weather::after {
@@ -85,14 +90,6 @@ body {
 
     }
 
-    * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-        font-family: "Libre Baskerville", serif;
-
-    }
-
     body {
         background-color: var(--accent-color2);
         width: 100vw;
@@ -125,8 +122,9 @@ body {
     #card1 {
         background-color: var(--accent-color2);
         position: absolute;
-        margin-top: 50px;
-        margin-left: 50px;
+        top: 100px;
+        left: 10px;
+        max-height: 200px;
     
     }
 
@@ -142,16 +140,17 @@ body {
     #card2 {
         background-color: var(--accent-color2);
         position: absolute;
-        margin-top: 350px;
-        margin-left: 1100px;
+        /*margin-top: 350px;
+        margin-left: 1100px;*/
+        top: 230px;
+        right: 10px;
     }
 
     .data-title {
         background-color: var(--accent-color);
         position: absolute;
         width: 200px;
-        top: -10px;
-        left: -10px;
+        left: 5px;
         text-align: left;
         padding-left: 10px;
         box-shadow: 0 1px 5px var(--secondary-color);
@@ -159,7 +158,7 @@ body {
 
     }
 
-    .data-box-1 {
+    /*.data-box-1 {
         display: grid;
         position: relative;
         grid-template-columns: 1fr;
@@ -173,22 +172,18 @@ body {
 
     .data-box-2 {
         display: grid;
-        position: relative;
-        grid-template-columns: 1fr;
-        grid-template-rows: auto;
+        position: absolute;
         font-size: 0.8rem;
         margin: 40px auto;
         box-shadow: 0 1px 4px var(--secondary-color);
 
 
-    }
+    }*/
 
     .row {
         display: grid;
         grid-template-columns: repeat(2, 150px);
         padding: 0 20px;
-
-
     }
 
 
@@ -196,10 +191,7 @@ body {
 
         padding: 0.2rem;
         font-family: "Libre Baskerville", sans-serif;
-        font-weight: bold;
         text-align: right;
-
-
     }
 
     .col2 {
@@ -207,10 +199,6 @@ body {
         padding: 0.2rem;
         font-family: "Libre Baskerville", sans-serif;
         font-weight: normal;
-
-
-
-
     }
 
     main {
@@ -222,23 +210,21 @@ body {
 
 
 
-    /*footer {
-
-
+    footer {
         background-color: var(--accent-color);
         color: var(--secondary-color);
         margin: 0 auto;
         text-align: center;
         font-size: 0.9em;
         max-width: 100%;
-        height: fit-content;
+        /*height: 10rem;*/
 
-    }*/
-    footer {
+    }
+    /*footer {
         background: var(--accent-color2);
         color: var(--secondary-color);
         text-align: center;
         padding: 14px 10px;
         margin-top: 30px;
-    }
+    }*/
 }

@@ -20,8 +20,9 @@ body {
 }
 
 header {
-    margin-bottom: 5px;
+    margin-bottom: 10px;
     max-width: 100%;
+    margin-top: 10px;
 }
 
 h1 {
@@ -31,6 +32,8 @@ h1 {
     color: var(--secondary-color);
     background-color: var(--accent-color);
     padding-left: 20px;
+    height: 75px;
+    padding-top: 20px;
 
 }
 
@@ -66,7 +69,9 @@ main {
 
 
 #card1 {
-
+    position: absolute;
+    top: 100px;
+    left: 10px;
     background-color: var(--accent-color2);
 
 }
@@ -82,6 +87,9 @@ main {
 }
 
 #card2 {
+    position: absolute;
+    top: 230px;
+    right: 10px;
     background-color: var(--accent-color2);
 
 }
@@ -90,14 +98,14 @@ main {
 .data-title-arizona,
 .data-title-weather {
     background-color: var(--accent-color);
-    position: absolute;
+    position: relative;
     width: 200px;
     top: -10px;
     left: -10px;
     text-align: left;
     padding-left: 10px;
     box-shadow: 0 1px 5px var(--secondary-color);
-
+    padding-top:5px;
 
 }
 
@@ -105,7 +113,7 @@ h3 {
     color: #fff;
 }
 
-.data-box-1 {
+/*.data-box-1 {
     font-size: 0.8rem;
     gap: 2px;
     margin: 40px auto;
@@ -119,7 +127,7 @@ h3 {
     box-shadow: 0 1px 4px var(--secondary-color);
 
 
-}
+}*/
 
 .row {
     display: grid;
@@ -134,7 +142,7 @@ h3 {
 
     padding: 0.2rem;
     font-family: var(--);
-    font-weight: bold;
+
     text-align: right;
 
 
@@ -167,5 +175,5 @@ footer {
   color: var(--secondary-color);
   text-align: center;
   padding: 14px 10px;
-  margin-top: 30px;
+
 }
