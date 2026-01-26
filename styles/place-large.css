@@ -1,9 +1,4 @@
 
-body {
-    font-family: "Libre Baskerville", serif;
-    min-height: 100vh;
-    overflow-x: hidden;
-}
 
 @media screen and (min-width: 100px) and (max-width: 1000px) {
     
