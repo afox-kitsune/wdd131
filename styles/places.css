@@ -14,7 +14,6 @@
 
 
 body {
-    margin: 0;
     background-color: var(--accent-color2);
     max-width: 100%;
 }
@@ -113,21 +112,6 @@ h3 {
     color: #fff;
 }
 
-/*.data-box-1 {
-    font-size: 0.8rem;
-    gap: 2px;
-    margin: 40px auto;
-    box-shadow: 0 1px 4px var(--secondary-color);
-
-}
-
-.data-box-2 {
-    font-size: 0.8rem;
-    margin: 40px auto;
-    box-shadow: 0 1px 4px var(--secondary-color);
-
-
-}*/
 
 .row {
     display: grid;
@@ -160,16 +144,7 @@ picture {
     height: auto;
 }
 
-/*footer {
 
-    background-color: var(--transparent-black);
-    color: #fff;
-    margin: 0 auto;
-    text-align: center;
-    font-size: 0.9em;
-    max-width: 100%;
-
-}*/
 footer {
   background: var(--accent-color2);
   color: var(--secondary-color);
