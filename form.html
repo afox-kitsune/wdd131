@@ -22,10 +22,11 @@
         <form action="review.html" method="get" class="form">
             <fieldset>
                 <legend>Product Name *</legend>
-                <label><select name="subject" id="productList" required>
-                <option value="" disabled selected>Select a Product</option>
-               
-            </select></label>
+                <label>
+                    <select name="subject" id="productList" required>
+                        <option value="" disabled selected>Select a Product</option>
+                    </select>
+                </label>
             </fieldset>
 
             <fieldset>
@@ -66,9 +67,7 @@
                 <input type="checkbox" id="design" name="design" value="yes">
                 <label for="design">Design</label>
             </fieldset>
-
-            <form action="/submit-page" method="post">
-
+            <fieldset>
                 <label for="review">Written Review (Optional)</label>
                     <textarea id="review" name="review"></textarea>
     
@@ -79,17 +78,8 @@
 
                 <button type="submit">Post Review</button>
                     </form>
-            <!--<fieldset>
-                <legend>Written Review (Optional)</legend>
-                <label><textarea id="review" name="review" cols="40" rows="4"></textarea></label>
             </fieldset>
-            <fieldset>
-                <legend>Your Name (Optional)</legend>              
-                <label><input type="text" name="name" id="name"></label>
-            </fieldset>
-    
-            <input type="submit" value="Post Review">-->
-    
+
         </form>
     </main>
     <footer>
