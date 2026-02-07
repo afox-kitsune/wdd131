@@ -1,3 +1,12 @@
+
+.container {
+  width: 80%;
+}
+@media (max-width: 600px) { 
+  .container {
+    width: 100%;
+  }
+}
 const productList = document.querySelector('#productList');
 
 const products = [
@@ -36,7 +45,4 @@ products.forEach(product => {
 function options(product) {
     var singleItem = `<option value="${product.id}">${product.name}</option>`;
     return singleItem;
-}
-@media screen and (min-width: 500px){
-    
 }
