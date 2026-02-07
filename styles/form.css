@@ -1,0 +1,91 @@
+
+main {
+    max-width: 640px;
+    background-color: rgb(144, 188, 218);
+    color: rgb(6, 6, 71);
+    margin: 0 auto;
+    font-family: "Noto Sans";
+}
+
+header, footer {
+    text-align: center;
+    background-color: rgb(90, 188, 197);
+    padding: 30px;
+    max-width: 580px;
+    margin: 0 auto;
+    font-family: "Noto Sans";
+}
+
+.form {
+    padding-top:30px ;
+}
+
+.form fieldset {
+    margin: 2rem ;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: .5rem 2%;
+}
+.form legend {
+    text-align: left;
+    font-size: large;
+    padding: 0 .5rem;
+}
+.form label {
+    display: block;
+    font-size: .9rem;
+}
+
+.form div {
+    padding-top: .1rem;
+    font-size: .9rem;
+}
+
+.form input[type = "text"],
+.form input[type="date"],
+.form select { 
+    background-color: rgb(210, 179, 196);
+    display: block;
+    border: solid 1px;
+    border-radius: 6px;
+    padding: .75rem;
+    color: #555;
+    width: 100%;
+    max-width: 400px;
+}
+
+textarea {
+    border-radius: 5px;
+    width: 100%;
+}
+
+.form input[type="radio"],
+.form input[type="checkbox"] {
+    margin-right: 6px;
+}
+
+.form input[type="submit"] {
+    border: none;
+    background-image: linear-gradient(rgb(19, 31, 96), rgb(73, 85, 152));
+    color: rgb(218, 198, 214);
+    border-radius: 6px;
+    padding: .8rem;
+    width: 96%;
+    min-width: 400px;
+    margin: -1rem 2% 2rem 2%;
+    box-shadow: 1px 1px 4px #999;
+    font-size: large;
+}
+
+.form input:required {
+    border-bottom: groove 8px rgb(144, 188, 218);
+}
+
+.form input:required:valid {
+    border-bottom: solid 8px green;
+}
+
+#thanks {
+    padding: 30px;
+    min-height: 400px;
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 131 - Dynamic Web Fundamentals - Alana Fox </title>
+    <meta name="description" content="This page displays an interactive form">
+    <meta name="author" content="Alana Fox">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles/form.css">
+    <script src="scripts/getdates.js" defer></script>
+    <script src="scripts/form.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Product Review</h1>
+    </header>
+    <main>
+        <form action="review.html" method="get" class="form">
+            <fieldset>
+                <legend>Product Name *</legend>
+                <label><select name="subject" id="productList" required>
+                <option value="" disabled selected>Select a Product</option>
+               
+            </select></label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Overall Rating *</legend>
+                <label><input type="radio" name="rating" value="oneStar" id="oneStar" required> &star;</label>
+                <label><input type="radio" name="rating" value="twoStars" id="twoStars" required> &star;&star;</label>
+                <label><input type="radio" name="rating" value="threeStars" id="threeStars" required> &star;&star;&star;</label>
+                <label><input type="radio" name="rating" value="fourStars" id="fourStars" required> &star;&star;&star;&star;</label>
+                <label><input type="radio" name="rating" value="fiveStars" id="fiveStars" required> &star;&star;&star;&star;&star;</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Date of Installation *</legend>
+                <label><input type="date" name="competionDate" id="date" required></label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Which features did you find useful in the product? </legend>
+                <div> (Check all that apply)</div>
+                <label><input type="checkbox" name="durability" value="yes" id="durability"> Durability</label>
+                <label><input type="checkbox" name="usability" value="yes" id="usability"> Ease of Use</label>
+                <label><input type="checkbox" name="performance" value="yes" id="performance"> Performance</label>
+                <label><input type="checkbox" name="design" value="yes" id="design"> Design</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Written Review (Optional)</legend>
+                <label><textarea id="review" name="review" cols="40" rows="4"></textarea></label>
+            </fieldset>
+            <fieldset>
+                <legend>Your Name (Optional)</legend>              
+                <label><input type="text" name="name" id="name"></label>
+            </fieldset>
+    
+            <input type="submit" value="Post Review">
+    
+        </form>
+    </main>
+    <footer>
+        <p> &copy; <span id="currentyear"></span>, 🦊 Alana Fox 🦊 Arizona</p>
+        <p>Last modified - <span id="lastModified"></span></p>
+    </footer>
+</body>
+</html>
