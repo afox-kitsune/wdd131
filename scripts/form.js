@@ -37,3 +37,6 @@ function options(product) {
     var singleItem = `<option value="${product.id}">${product.name}</option>`;
     return singleItem;
 }
+@media screen and (min-width: 500px){
+    
+}

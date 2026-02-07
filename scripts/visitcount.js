@@ -7,3 +7,6 @@ if (numVisits !== 0) {
 }
 numVisits++;
 localStorage.setItem("numVisits-ls", numVisits);
+@media screen and (min-width: 500px){
+    
+}

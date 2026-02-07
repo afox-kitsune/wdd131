@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WDD 131 - Dynamic Web Fundamentals - Alana Fox </title>
-    <meta name="description" content="This page displays an interactive form">
+    <meta name="description" content="This page displays an interactive form with product options, review options and submission button">
     <meta name="author" content="Alana Fox">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -28,13 +28,19 @@
             </select></label>
             </fieldset>
 
+    <label for="twoStars">2 Stars</label>
             <fieldset>
-                <legend>Overall Rating *</legend>
-                <label><input type="radio" name="rating" value="oneStar" id="oneStar" required> &star;</label>
-                <label><input type="radio" name="rating" value="twoStars" id="twoStars" required> &star;&star;</label>
-                <label><input type="radio" name="rating" value="threeStars" id="threeStars" required> &star;&star;&star;</label>
-                <label><input type="radio" name="rating" value="fourStars" id="fourStars" required> &star;&star;&star;&star;</label>
-                <label><input type="radio" name="rating" value="fiveStars" id="fiveStars" required> &star;&star;&star;&star;&star;</label>
+                <legend>Overall Rating*</legend>
+                <input type="radio" id="onestar" name="rating" value="1">
+                <label for="oneStar">1 Star</label>
+                <input type="radio" id="twostars" name="rating" value="2">
+                <label for="oneStar">2 Star</label>
+                <input type="radio" id="threestars" name="rating" value="3">
+                <label for="oneStar">3 Star</label>
+                <input type="radio" id="fourstars" name="rating" value="4">
+                <label for="oneStar">4 Star</label>
+                <input type="radio" id="fivestars" name="rating" value="5">
+                <label for="oneStar">5 Star</label>
             </fieldset>
 
             <fieldset>
