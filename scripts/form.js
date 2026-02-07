@@ -1,12 +1,5 @@
 
-.container {
-  width: 80%;
-}
-@media (max-width: 600px) { 
-  .container {
-    width: 100%;
-  }
-}
+
 const productList = document.querySelector('#productList');
 
 const products = [

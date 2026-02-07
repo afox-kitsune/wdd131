@@ -1,5 +1,6 @@
+@media (min-width: 800px) {
 
-main {
+ main {
     max-width: 640px;
     background-color: rgb(144, 188, 218);
     color: rgb(6, 6, 71);
@@ -88,4 +89,5 @@ textarea {
 #thanks {
     padding: 30px;
     min-height: 400px;
+}
 }
