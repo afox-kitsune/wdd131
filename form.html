@@ -50,7 +50,7 @@
 
             <fieldset>
                <label for="installdate">
-                    <input type="date" id="installdate" name="dateinstallation" value="date" required> Date
+                    <input type="date" id="installdate" name="dateinstallation" value="2026-02-06" required> Date
                 </label><br>
             </fieldset>
 
@@ -67,7 +67,19 @@
                 <label for="design">Design</label>
             </fieldset>
 
-            <fieldset>
+            <form action="/submit-page" method="post">
+
+                <label for="review">Written Review (Optional)</label>
+                    <textarea id="review" name="review"></textarea>
+    
+
+                <label for="name">Your Name (Optional)</label>
+                    <input type="text" id="name" name="name">
+    
+
+                <button type="submit">Post Review</button>
+                    </form>
+            <!--<fieldset>
                 <legend>Written Review (Optional)</legend>
                 <label><textarea id="review" name="review" cols="40" rows="4"></textarea></label>
             </fieldset>
@@ -76,7 +88,7 @@
                 <label><input type="text" name="name" id="name"></label>
             </fieldset>
     
-            <input type="submit" value="Post Review">
+            <input type="submit" value="Post Review">-->
     
         </form>
     </main>
