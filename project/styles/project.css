@@ -135,33 +135,13 @@ footer a {
     color: var(--black-shade);
 }
 
-.tipsList {
-    display: grid;
-    grid-template-columns: 1fr;
-    padding: 1rem;
-    gap: 1rem;
-}
 
-.tips-card {
-    background-color: var(--pastel-cyan);
-    padding: 1rem;
-    border-radius: 12px;
-}
-
-.tips-card h3, .genre {
-    text-align: center;
-}
-
-.tips-header {
-    padding:1rem;
-    color: var(--dusty-rose);
-}
 
 .search {
     padding: 1rem;
     font-size: large;
     font-family: 'Libre', serif;
-    background-color: var(--warm-white);
+    background-color: var(--pastel-cyan);
     border-radius: 12px;
     max-width: 800px;
     margin: 0 auto;
@@ -196,11 +176,7 @@ select, input {
     gap: 10px;
     color: var(--pastel-cyan);
 }
-label {
-    font-size: 20px;
-    position: relative;
-    top: 8px;
-}
+
 input, textarea {
     width: 90%;
     border: 1px solid #666666;
@@ -402,17 +378,7 @@ a.button {
         align-items: center;
     }
 
-    .purpose {
-        padding: .5rem;
-        position:absolute;
-        bottom:20px;
-        left:100px;
-        right:100px;
-        background: rgba(255, 255, 255, 0.7);
-        border-radius: 12px;
-        color: var(--text-color);
-        margin: 1rem;
-    }
+
 
     .info  {
         display: grid;
@@ -423,16 +389,6 @@ a.button {
         padding: 0 1rem;
     }
 
-    .learn {
-        grid-column: 1 / -1;
-    }
-
-    .products, .tips, .learn {
-        background: white;
-        border-radius: 12px;
-        padding: 1rem;
-        color: var(--text-color);
-    }
 
     .layout {
         grid-template-columns: 1fr 1fr;
@@ -465,26 +421,19 @@ a.button {
         grid-column: 1/4;
     }
 
-    /*-----About Me-----*/
-    .about {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 1rem;
-        padding: 1rem;
-        margin: 1rem;
-        align-items: start;
-    }
+    /*-----Share-----*/
 
-    .profile{
+
+    .form-columns{
         grid-column: 1/2;
         grid-row: 1;
     }
 
-    .intro {
+    .share-section-two{
         grid-column: 2/3;
     }
 
-    .about-text {
+    .share-section-three {
         grid-column: 2;
         display: flex;
         flex-direction: column;
