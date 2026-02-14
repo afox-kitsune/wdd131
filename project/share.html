@@ -1,0 +1,114 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> How to Share Cake with Others </title>
+    <meta name="description" content="Listing volunteer opportunities in arizona for sharing bakes">
+    <meta name="author" content="Alana Fox">
+    <link rel="stylesheet" href="styles/project.css">
+    <script src="scripts/project.js" defer></script>
+    <script src="scripts/getdates.js" defer></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Libre+Baskerville:ital,wght@0,400..700;1,400..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">    
+
+  </head>
+
+<body>
+    <div class="grid">
+        <header>
+            <img src="images/cake-logo.jpg" alt="Cake logo image" width="200">
+            <div class="menu">
+                <span id="tips-title" class="title">Passing the Plate to Others</span>
+                <nav class="navigation">
+                    <ul class="linkNav">
+                        <li><a href="project-index.html" id="home">Recipes</a></li>
+                        <li><a href="methods.html" id="about">Tricks and Treats</a></li>
+                        <li><a href="share.html" id="sample">Let them Eat Cake!</a></li>
+                    </ul>
+                </nav>
+            </div>
+            
+        </header>
+    </div>
+
+    <main>
+            <div class="form-columns">
+
+                <div class="form-item-column-1">
+                    <img src="images/snake-cake.jpg" alt="Snake cake image">
+
+                </div>
+                <div class="form-item-column-2">
+                <form>
+                    <label for="fullname">Full Name:</label>
+                    <input type="text" id="fullname" name="fullname" required>
+
+                    <label for="useremail">Email:</label>
+                    <input type="email" id="useremail" name="useremail" required>
+
+                    <label>Message Purpose:</label>
+                    <input type="radio" id="general-inquiry" name="purpose" value="general-inquiry">
+                    <label for="general-inquiry">General Inquiry</label><br>
+                    <input type="radio" id="get-involved-signup" name="purpose" value="get-involved">
+                    <label for="get-involved-signup">Volunteer Opportunities near me </label><br>
+                    <input type="radio" id="location-suggestion" name="purpose" value="location-suggestion">
+                    <label for="location-suggestion">Volunteer Opportunities near me </label><br>
+
+
+                    <label for="feedback">Message</label>
+                    <textarea id="feedback" name="feedback" rows="4" placeholder="Type Here"></textarea>
+
+                    <button type="submit"> I want to share my bake!</button>
+                </form>
+                </div>
+
+            </div>
+
+
+        <section class="share-section-two">
+            <h2 class="share-section-two"> Baking for others</h2>
+
+            <div class="detail-share-two">
+                <detail-share>
+                    <img src="images/book-cake.jpg" alt="book cake image" width="250">
+                    <detail>Bake Sale</detail>
+                    <detailcaption>Hold a Bake Sale. Baking cake, cookies or other sweets sell them to your local community and then donate the profit to your charity of choice. You can market through social media, or placing door hangers around your neighborhood.</detailcaption>
+                </detail-share>
+                <detail-share>
+                    <img src="images/treasure-cake.jpg" alt="treasure cake image" width="250">
+                    <detail>Personal Bake</detail>
+                    <detailcaption>Baking for friends, family, members of your family, or your neighbors. I have a friend and member of my ward who a couple years ago lost her child about a month after he was born. Since than every year her family throws a birthday party to celebrate his life. People brings gifts in the form of diapers and formula that they donate to the Nicu that took care of their son. Besides bringing a gift I make a cake to share with them and their guests this has be come a great way to share my love with a friend and her family. Giving to those in your live make them feel love and appreciated. </detailcaption>
+                </detail-share>
+                <detail-share>
+                    <iframe
+                        src="https://images.squarespace-cdn.com/content/v1/678047f6211f8b5d535e49c2/1736460537680-SM35F6ECHNI5TSUP99ND/AZ_010.jpeg?format=1000w"
+                        width="250" height="400" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <detail>For Goodness Cake</detail>
+                    <detailcaption>For Goodness Cake is an organization in Maricopa County Arizona that organizes cakes made for a child while in fostercare so they have a treat that is unique to them and recognizes their special day.</detailcaption>
+                </detail-share>
+            </div>
+
+        </section>
+        <section class="share-section-three">
+            <h3>Bake the World a Better Place</h3>
+            <p>John 13:34-35 A new command I give you; Love one another. As I have loved you, so you must love one another. By this everyone will know that you are my disciples if you love one another</p>
+
+        </section>
+
+    </main>
+
+    <footer class="page-footer">
+        <p>&copy; <span id="currentyear"></span>🦊 Alana Fox 🦊 Arizona</p><br>
+        <p id="lastModified"></p>
+    </footer>
+
+</body>
+
+</html>
+

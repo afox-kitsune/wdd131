@@ -7,3 +7,4 @@ if (numVisits !== 0) {
 }
 numVisits++;
 localStorage.setItem("numVisits-ls", numVisits);
+

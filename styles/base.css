@@ -5,11 +5,11 @@
 }
 
 :root {
-    --primary-color:#987284;
+    --primary-color:#674656;
     --secondary-color:#053229;
     --accent-color:#d0d6B5;
-    --accent-color2:#Fdc1b4;
-    --accent-color3:#4c4c4c;
+    --accent-color2:#f8e5e0;
+    --accent-color3:#484646;
 }
 
 
@@ -33,7 +33,7 @@ main {
 section h2 {
     padding: 1rem;
     background-color: var(--primary-color);
-    color: var(--secondary-color);
+    color: var(--accent-color2);
     display: block;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
